@@ -25,11 +25,13 @@ page-home {
     }
 
     .icons{
+        margin-left: 1rem;
+        margin-right: 1rem;
         display: flex;
         justify-content: center;
         flex-flow: row nowrap;
         &__iconcontainer{
-            margin: 3rem;
+            margin: 2rem;
             
             &__icon{
                 width: 100vw;
