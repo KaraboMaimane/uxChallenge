@@ -1,14 +1,57 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-navbar>
-</ion-header>
+<ion-content>
+  <div class="heading">
+    <h1 class="heading__primary">Sign Up</h1>
+    <h3 class="heading__secondary">Who You Are?</h3>
+  </div>
+  <div class="icons">
+    <div class="icons__iconcontainer">
+      <img src="../../assets/imgs/user.png" alt="icon" class="icons__iconcontainer__icon">
+      <p class="icons__iconcontainer__icontext" id="text1">Parent</p>
+    </div>
+    <div class="icons__iconcontainer">
+      <img src="../../assets/imgs/child.png" alt="icon" class="icons__iconcontainer__icon">
+      <p class="icons__iconcontainer__icontext" id="text2">Child</p>
+    </div>
+    <div class="icons__iconcontainer">
+      <img src="../../assets/imgs/teacher.png" alt="icon" class="icons__iconcontainer__icon">
+      <p class="icons__iconcontainer__icontext" id="text3">Teacher</p>
+    </div>
+  </div>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  <div class="form">
+    <div class="form__input">
+      <ion-item class="form__input__item">
+        <ion-label color="">
+          <ion-icon name="person-outline" class="form__input__item__icon"></ion-icon> Username</ion-label>
+        <ion-input></ion-input>
+      </ion-item>
+    </div>
+    <div class="form__input">
+      <ion-item class="form__input__item">
+        <ion-label color="">
+          <ion-icon name="mail-outline" class="form__input__item__icon"></ion-icon>Email</ion-label>
+        <ion-input></ion-input>
+      </ion-item>
+    </div>
+    <div class="form__input">
+      <ion-item class="form__input__item">
+        <ion-label color="">
+          <ion-icon name="lock-outline" class="form__input__item__icon"></ion-icon>Password</ion-label>
+        <ion-input></ion-input>
+      </ion-item>
+    </div>
+    <div class="form__input">
+      <ion-item class="form__input__item">
+        <ion-label color="">
+          <ion-icon name="lock-outline" class="form__input__item__icon"></ion-icon>Confirm Password</ion-label>
+        <ion-input></ion-input>
+      </ion-item>
+    </div>
+  </div>
+  <div class="u-btn">
+      <button class="u-btn__btn">SignUp</button>
+  </div>
+<div class="u-logintext">
+  <p class="u-logintext__text">Already have an account <span class="u-logintext__text__inner">Login here</span></p>
+</div>
 </ion-content>
