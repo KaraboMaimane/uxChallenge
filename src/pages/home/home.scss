@@ -37,13 +37,14 @@ page-home {
         justify-content: center;
         flex-flow: row nowrap;
         &__iconcontainer{
-            margin: 1rem;
-            
+            margin: .6rem .5rem .5rem .5rem;
             &__icon{
-                width: 100vw;
-                height: 100%;
+                width: 80%;
+                height: 80%;
                 border: .3rem white solid;
                 border-radius: 50%;
+                display: block;
+                margin: 0 auto;
             }
 
             &__icontext{
