@@ -44,7 +44,7 @@ page-home {
                 border: .3rem white solid;
                 border-radius: 50%;
                 display: block;
-                margin: 0 auto;
+                margin: 0 auto 0 auto;
             }
 
             &__icontext{
@@ -85,7 +85,7 @@ page-home {
                    font-size: 3rem;
                    position: relative;
                    top: .5rem;
-                   margin: .3rem;
+                   margin-right: 2rem;
                }
            }
        } 
