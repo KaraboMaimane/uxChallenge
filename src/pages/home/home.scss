@@ -9,7 +9,13 @@ page-home {
         background-color: $color-primary-dark !important;
         font-size: 62.5%;
     }
+    div.item-md.item-block.item-inner{
+        border: none !important;
+    }
 
+    div.item-ios.item-block.item-inner{
+        border: none !important;
+    }
     .heading{
         text-align: center;
         &__primary{
@@ -31,7 +37,7 @@ page-home {
         justify-content: center;
         flex-flow: row nowrap;
         &__iconcontainer{
-            margin: 2rem;
+            margin: 1rem;
             
             &__icon{
                 width: 100vw;
